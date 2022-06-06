@@ -1,0 +1,166 @@
+.wrapper_book {
+    width: 250px;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.wrapper_book p {
+    text-align: center;
+}
+
+.info_book {
+    width: 100%;
+    padding: 10px;
+}
+
+.book_name {
+    font-weight: 300;
+}
+
+.info_book img {
+    display: block;
+    width: 150px;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.info_book span {
+    font-weight: 500;
+}
+
+.book_author {
+    margin-bottom: 15px;
+}
+
+.price_bth {
+    justify-content: center;
+    padding: 5px;
+    display: flex;
+    margin: 10px 0px 5px 0px;
+    align-items: flex-end;
+}
+
+.price_bth p {
+    margin-right: 10px;
+}
+
+@media (max-width:1000px) {
+    .wrapper_book {
+        width: 200px;
+        padding: 5px;
+    }
+    .info_book img {
+        width: 100px;
+        margin: 10px auto;
+    }
+    .info_book {
+        padding: 5px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .price_bth p {
+        font-size: 12px;
+    }
+    .info_book span {
+        font-weight: 300;
+    }
+}
+
+@media (max-width:660px) {
+    .wrapper_book {
+        width: 170px;
+        padding: 5px;
+    }
+    .info_book img {
+        width: 80px;
+        margin: 10px auto;
+    }
+    p {
+        font-size: 12px;
+    }
+    .info_book span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:550px) {
+    .wrapper_book {
+        width: 150px;
+        padding: 3px;
+    }
+    .info_book img {
+        width: 70px;
+        margin: 10px auto;
+    }
+    p {
+        font-size: 10px;
+    }
+    .info_book span {
+        font-weight: 300;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .wrapper_books {
+        margin: 0 auto;
+        padding: 5px;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 5px;
+        grid-template-areas: ".  ";
+    }
+    .wrapper_book {
+        width: 205px;
+        padding: 5px;
+    }
+    .info_book img {
+        width: 100px;
+        margin: 10px auto;
+    }
+    .info_book {
+        padding: 5px;
+    }
+    p {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .price_bth p {
+        font-size: 12px;
+    }
+    .info_book span {
+        font-weight: 300;
+    }
+}
+
+@media (max-width:400px) {
+    .info_book img {
+        width: 80px;
+    }
+    .wrapper_book {
+        width: 140px;
+        padding: 3px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .price_bth p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .price_bth p {
+        font-size: 9px;
+    }
+}

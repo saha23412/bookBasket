@@ -1,0 +1,31 @@
+.HeaderMenu {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.logoShop {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderMenu span {
+    font-weight: 500;
+}
+
+.logoShop p {
+    margin-left: 20px;
+}
+
+@media (max-width:500px) {
+    .HeaderMenu span {
+        font-weight: 300;
+    }
+    .logoShop img {
+        width: 35px;
+        height: 35px;
+    }
+}

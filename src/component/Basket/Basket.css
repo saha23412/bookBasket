@@ -1,0 +1,136 @@
+.basketWrapper {
+    position: relative;
+    padding: 10px;
+    border-left: 1px solid rgb(238, 238, 238);
+}
+
+.messageInfo {
+    position: absolute;
+    padding: 15px;
+    border: 1px solid rgb(82, 206, 0);
+    ;
+    right: 100px;
+    top: -100px;
+    -webkit-border-radius: 40px;
+    -webkit-border-bottom-right-radius: 1px;
+    -moz-border-radius: 40px;
+    -moz-border-radius-bottomright: 1px;
+    border-radius: 40px;
+    border-bottom-right-radius: 1px;
+}
+
+.messageBuy {
+    color: rgb(82, 206, 0);
+}
+
+.messageDelete {
+    font-size: 14px;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.infoBasket {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.infoBasket p {
+    margin-right: 15px;
+}
+
+.wrapper_books_arr {
+    margin: 10px;
+    width: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.noMoney {
+    color: rgb(251, 63, 63);
+}
+
+.sad {
+    margin-left: 20px;
+}
+
+.sumPurchases {
+    margin: 10px;
+}
+
+@media (max-width:1200px) {
+    .messageInfo {
+        right: 100px;
+        top: -150px;
+    }
+}
+
+@media (max-width:796px) {
+    .messageInfo {
+        top: -170px;
+    }
+    .messageInfo p {
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    .wrapper_books_arr {
+        margin: 5px;
+        width: 200px;
+        max-height: 300px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .messageInfo {
+        top: -125px;
+    }
+}
+
+@media (max-width:500px) {
+    .messageInfo {
+        right: 60px;
+        top: -125px;
+    }
+}
+
+@media (max-width:700px) {
+    .messageInfo {
+        right: 30px;
+        top: -145px;
+        width: 200px;
+    }
+    .basketWrapper {
+        margin: 3px;
+        width: 150px;
+    }
+    .wrapper_books_arr {
+        margin: 3px;
+        width: 130px;
+        max-height: 300px;
+    }
+    .amount {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:475px) {
+    .messageInfo {
+        right: 30px;
+        top: -145px;
+        width: 170px;
+    }
+}
+
+@media (max-width:405px) {
+    .messageInfo {
+        right: 5px;
+        top: -145px;
+        width: 150px;
+    }
+}

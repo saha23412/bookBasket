@@ -1,0 +1,110 @@
+.basketBooksWrapper {
+    margin-top: 20px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.delteWrapper {
+    margin: 10px 0px 20px 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.basketBook p {
+    font-size: 14px;
+}
+
+.basketBook img {
+    width: 85px;
+    margin-right: 10px;
+}
+
+.amountOperation {
+    display: flex;
+    margin-top: 20px;
+}
+
+.amountOperation .encrement {
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.amountOperation .decrement {
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.encrement {
+    margin: 0px 5px;
+}
+
+@media (max-width:701px) {
+    .amountOperation .encrement {
+        font-size: 16px;
+        font-weight: 300;
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: transparent;
+    }
+    .amountOperation .decrement {
+        font-size: 16px;
+        font-weight: 300;
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: transparent;
+    }
+    .basketBook img {
+        width: 70px;
+    }
+    .basketBook p {
+        font-size: 12px;
+    }
+    .amount span {
+        font-size: 12px;
+    }
+    .amount {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .basketBooksWrapper p {
+        font-size: 12px;
+    }
+    .amount {
+        text-align: center;
+        font-size: 10px;
+    }
+    .basketBooksWrapper span {
+        font-size: 10px;
+    }
+    .amountOperation .decrement {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .amountOperation .encrement {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
