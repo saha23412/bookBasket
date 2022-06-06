@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bookBasket/static/css/main.e2bb8d39.css",
+    "main.js": "/bookBasket/static/js/main.e2b7f0a1.js",
+    "index.html": "/bookBasket/index.html",
+    "main.e2bb8d39.css.map": "/bookBasket/static/css/main.e2bb8d39.css.map",
+    "main.e2b7f0a1.js.map": "/bookBasket/static/js/main.e2b7f0a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2bb8d39.css",
+    "static/js/main.e2b7f0a1.js"
+  ]
+}
